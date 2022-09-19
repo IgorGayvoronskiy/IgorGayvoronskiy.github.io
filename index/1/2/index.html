@@ -2,12 +2,16 @@
 
 <html lang="ru">
     <head>
-        <title>Мой сайт</title>
+        <title>Хороший сайт</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-      <article id="1"><h2>Начало сайта</h2></article>
-      <ul><li><a href="#End" title="В конец сайта">Вниз</a></li></ul>
-        <ol>
+    <body id="H">
+      <header id="hat">
+        <img id="logo" src="s.png" alt="Картинка">
+        <div id="d">Хороший сайт</div>
+      </header>
+      <nav id="menu"><a id="s1" href="#menu" title="menu">Mеню</a>  <a id="s2" href="#form" title="form">К форме</a>  <a id="s3" href="#End" title="end">В конец</a></nav>
+        <ol id="spisok">
             <li><a href="http://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com</a></li>
             <li><a href="https://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
             <li><a href="ftp://ftp.olex.no/pub/AEC-6860.pdf"> Ссылка на файл на сервере FTP без авторизации</a></li>
@@ -37,8 +41,39 @@
             <li><a href="./about/4.html" target="_blank">Сокращенная ссылка на внутреннюю</a></li>
         </ol>
 
+        <table id="table">
+          <tr id="ch">
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+            <th>Колонка 3</th>
+          </tr>
+          <tr id="nch">
+            <td colspan="3">Объединённая ячейка</td>
+          </tr>
+          <tr id="ch">
+            <td>ячейка 21</td>
+            <td>ячейка 22</td>
+            <td>ячейка 23</td>
+          </tr>
+          <tr id="nch">
+            <td>ячейка 31</td>
+            <td>ячейка 32</td>
+            <td>ячейка 33</td>
+          </tr>
+          <tr id="ch">
+            <td>ячейка 41</td>
+            <td>ячейка 42</td>
+            <td>ячейка 43</td>
+          </tr>
+          <tr id="nch">
+            <td>ячейка 51</td>
+            <td>ячейка 52</td>
+            <td>ячейка 53</td>
+          </tr>
+        </table>
+
         <form action="/"
-        method="POST">
+        method="POST" id="form">
   
         <label>
           Имя:<br />
@@ -106,10 +141,8 @@
         <input type="submit" value="Отправить" />
       </form><br />
 
-      <ul><li>
-        <a href="#1" title="В начало сайта">Вверх</a>
-      </li></ul>
+      <footer class="ground">(c) Игорь Гайворонский 2022</footer>
 
-        <article id="End"><h2>Конец сайта</h2></article>
+        <article id="End"></article>
     </body>
 </html>

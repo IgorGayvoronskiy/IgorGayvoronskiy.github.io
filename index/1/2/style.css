@@ -1,0 +1,112 @@
+#H {
+    margin: 0;
+    background-image:url("sa.png");
+}
+
+#hat {
+    width:100%; 
+    background-color:#387BCC; 
+    padding: 10px; 
+    height:120px;
+    line-height: 260%;
+}
+
+#logo {
+    float:left;
+    margin:10px;
+    width:100px;
+    height:100px;
+    margin-left: 24.2%;
+}
+
+#d {
+    font-size: 15pt;
+    padding:50px;
+    color: #F3CDF6;
+}
+
+#menu {
+    background-color: #387BCC;
+    margin: 15px;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 960px;
+    line-height: 260%;
+}
+
+#s1 {
+    color: lawngreen;
+    margin-left: 10%;
+}
+
+#s2 {
+    color: lawngreen;
+    margin-left: 25%;
+}
+
+#s3 {
+    color: lawngreen;
+    margin-left: 25%;
+}
+
+#spisok {
+    background: #387BCC;
+    margin: 15px;
+    width: 46.8%;
+    height: auto;
+    color: lawngreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol a {
+    color: lawngreen;
+}
+
+#form {
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #387BCC;
+    height: auto;
+    width: 50%;
+}
+
+input {
+    background-color: #F3CDF6;
+}
+
+textarea {
+    background-color: #F3CDF6;
+}
+
+select {
+    background-color: #F3CDF6;
+}
+
+#table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #F3CDF6;
+}
+
+#ch{
+    background-color: #387BCC;
+}
+
+#nch{
+    background-color: lawngreen;
+    color: #387BCC;
+}
+
+.ground {
+    width:100%; 
+    background-color:#387BCC; 
+    padding: 10px; 
+    height:50px;
+    line-height: 260%;
+    color: #F3CDF6
+}
