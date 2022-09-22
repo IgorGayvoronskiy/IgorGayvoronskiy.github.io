@@ -96,11 +96,11 @@ select {
     order: 1;
 }
 
-#ch{
+.ch{
     background-color: #387BCC;
 }
 
-#nch{
+.nch{
     background-color: lawngreen;
     color: #387BCC;
 }
@@ -213,11 +213,11 @@ select {
         color: #F3CDF6;
     }
     
-    #ch{
+    .ch{
         background-color: #387BCC;
     }
     
-    #nch{
+    .nch{
         background-color: lawngreen;
         color: #387BCC;
     }
