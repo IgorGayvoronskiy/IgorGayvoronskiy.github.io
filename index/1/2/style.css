@@ -63,6 +63,7 @@
     color: lawngreen;
     order: 0;
     background-color: rgba(0, 120, 201, 0.5);
+    list-style-type: none;
 }
 
 
