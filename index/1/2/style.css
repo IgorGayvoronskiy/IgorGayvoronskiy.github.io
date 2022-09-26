@@ -43,6 +43,8 @@
     line-height: 260%;
     order: 0;
     background-color: rgba(0, 120, 201, 0.5);
+    font-size: 20pt;
+    font-family:Impact, Haettenschweiler;
 }
 
 #s1 {
@@ -64,6 +66,7 @@
     order: 0;
     background-color: rgba(0, 120, 201, 0.5);
     list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -76,6 +79,7 @@ ol a {
     width: auto;
     order: 0;
     background-color: rgba(0, 120, 201, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input {
@@ -95,6 +99,7 @@ select {
     width: auto;
     color: #F3CDF6;
     order: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .ch{
@@ -157,6 +162,7 @@ select {
         margin-right: auto;
         font-weight: 960px;
         line-height: 260%;
+        font-size: 15pt;
     }
     
     #s1 {
