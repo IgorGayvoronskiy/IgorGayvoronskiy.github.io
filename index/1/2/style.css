@@ -34,15 +34,15 @@
 }
 
 #menu {
-    background-color: #387BCC;
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+    flex-direction: column;
+    align-items:center;
     height: auto;
     width: auto;
     font-weight: 960px;
     line-height: 260%;
     order: 0;
+    background-color: rgba(0, 120, 201, 0.5);
 }
 
 #s1 {
@@ -58,11 +58,11 @@
 }
 
 #spisok {
-    background: #387BCC;
     width: auto;
     height: auto;
     color: lawngreen;
     order: 0;
+    background-color: rgba(0, 120, 201, 0.5);
 }
 
 
@@ -71,10 +71,10 @@ ol a {
 }
 
 #form {
-    background-color: #387BCC;
     height: auto;
     width: auto;
     order: 0;
+    background-color: rgba(0, 120, 201, 0.5);
 }
 
 input {
@@ -147,7 +147,8 @@ select {
     }
     
     #menu {
-        background-color: #387BCC;
+        flex-direction: row;
+        justify-content:space-around;
         margin: 15px;
         height: 50px;
         width: 50%;
@@ -170,13 +171,13 @@ select {
     }
     
     #spisok {
-        background: #387BCC;
         margin: 15px;
         width: 46.8%;
         height: auto;
         color: lawngreen;
         margin-left: auto;
         margin-right: auto;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     ol a {
         color: lawngreen;
@@ -186,7 +187,6 @@ select {
         margin: 15px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #387BCC;
         height: auto;
         width: 50%;
         order: 0;
