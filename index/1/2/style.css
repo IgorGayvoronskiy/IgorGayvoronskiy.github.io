@@ -1,8 +1,4 @@
 #H {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
     margin: 0;
     background-image:url("sa.png");
 
@@ -34,9 +30,8 @@
 }
 
 #menu {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+    margin-top: 10px;
+    text-align: center;
     height: auto;
     width: auto;
     font-weight: 960px;
@@ -60,6 +55,7 @@
 }
 
 #spisok {
+    margin-top: 10px;
     width: auto;
     height: auto;
     color: lawngreen;
@@ -75,6 +71,7 @@ ol a {
 }
 
 #form {
+    margin-top: 10px;
     height: auto;
     width: auto;
     order: 0;
@@ -95,6 +92,7 @@ select {
 }
 
 #table {
+    margin-top: 10px;
     text-align: center;
     width: auto;
     color: #F3CDF6;
@@ -115,7 +113,7 @@ select {
     width:auto; 
     background-color:#387BCC; 
     padding: 10px; 
-    height:50px;
+    height:auto;
     line-height: 260%;
     color: #F3CDF6;
     order: 1;
@@ -143,7 +141,7 @@ select {
         margin:10px;
         width:100px;
         height:100px;
-        margin-left: 24.2%;
+        margin-left: 24.5%;
     }
     
     #d {
@@ -179,7 +177,7 @@ select {
     
     #spisok {
         margin: 15px;
-        width: 46.8%;
+        width: 50%;
         height: auto;
         color: lawngreen;
         margin-left: auto;

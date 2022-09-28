@@ -4,14 +4,34 @@
     <head>
         <title>Хороший сайт</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body id="H">
-      <header id="hat">
+    <body id="H" class="column">
+      <header id="hat" class="container-fluid">
         <img id="logo" src="s.png" alt="Картинка">
         <div id="d">Хороший сайт</div>
       </header>
-      <nav id="menu"><a id="s1" href="#menu" title="menu">Mеню</a>  <a id="s2" href="#form" title="form">К форме</a>  <a id="s3" href="#End" title="end">В конец</a></nav>
-        <ol id="spisok">
+      <nav id="menu" class="navbar navbar-default">
+        <div class="container">
+          <div class="col-sm-12 col-lg-4">
+          <a id="s1" href="#menu" title="menu">Mеню</a> 
+          </div> 
+          <div class="col-sm-12 col-lg-4">
+          <a id="s2" href="#form" title="form">К форме</a>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+          <a id="s3" href="#End" title="end">В конец</a>
+          </div>
+        </div>
+      </nav>
+        <ol id="spisok" class="col-sm-12 col-lg-12">
             <li><a href="http://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com</a></li>
             <li><a href="https://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
             <li><a href="ftp://ftp.olex.no/pub/AEC-6860.pdf"> Ссылка на файл на сервере FTP без авторизации</a></li>
@@ -47,7 +67,7 @@
             <li><a href="./about/4.html" target="_blank">Сокращенная ссылка на внутреннюю</a></li>
         </ol>
 
-        <table id="table">
+        <table id="table" class="col-sm-12 col-lg-12">
           <tr class="ch">
             <th>Колонка 1</th>
             <th>Колонка 2</th>
@@ -79,7 +99,7 @@
         </table>
 
         <form action="/"
-        method="POST" id="form">
+        method="POST" id="form" class="col-sm-12 col-lg-12">
   
         <label>
           Имя:<br />
