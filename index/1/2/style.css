@@ -5,15 +5,12 @@
 }
 
 #hat {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    width:auto; 
     background-color:#387BCC; 
     padding: 10px; 
     height:auto;
     line-height: 260%;
-    order: 0;
+    width: 100%;
+    margin: 0;
 }
 
 #logo {
@@ -30,13 +27,11 @@
 }
 
 #menu {
-    margin-top: 10px;
     text-align: center;
     height: auto;
-    width: auto;
+    width: 100%;
     font-weight: 960px;
     line-height: 260%;
-    order: 0;
     background-color: rgba(0, 120, 201, 0.5);
     font-size: 20pt;
     font-family:Impact, Haettenschweiler;
@@ -55,11 +50,9 @@
 }
 
 #spisok {
-    margin-top: 10px;
     width: auto;
     height: auto;
     color: lawngreen;
-    order: 0;
     background-color: rgba(0, 120, 201, 0.5);
     list-style-type: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -71,10 +64,8 @@ ol a {
 }
 
 #form {
-    margin-top: 10px;
     height: auto;
-    width: auto;
-    order: 0;
+    width: 100%;
     background-color: rgba(0, 120, 201, 0.5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -92,11 +83,9 @@ select {
 }
 
 #table {
-    margin-top: 10px;
     text-align: center;
-    width: auto;
+    width: 100%;
     color: #F3CDF6;
-    order: 1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -110,7 +99,7 @@ select {
 }
 
 .ground {
-    width:auto; 
+    width:100%; 
     background-color:#387BCC; 
     padding: 10px; 
     height:auto;
@@ -119,120 +108,43 @@ select {
     order: 1;
 }
 
-@media screen and (min-width: 1000px) {
-    #H {
-        margin: 0;
-        background-image:url("sa.png");
-    }
-    
-    #hat {
-        width:100%; 
-        background-color:#387BCC; 
-        display: flex;
-        flex-direction: row;
-        justify-content:flex-start;
-        padding: 10px; 
-        height:120px;
-        line-height: 260%;
-    }
-    
-    #logo {
-        float:left;
-        margin:10px;
-        width:100px;
-        height:100px;
-        margin-left: 24.5%;
-    }
-    
-    #d {
-        font-size: 15pt;
-        padding:50px;
-        color: #F3CDF6;
-    }
-    
+@media screen and (min-width: 800px) {
     #menu {
-        flex-direction: row;
-        justify-content:space-around;
-        margin: 15px;
-        height: 50px;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
+        height: auto;
+        width: 60%;
         font-weight: 960px;
         line-height: 260%;
-        font-size: 15pt;
-    }
-    
-    #s1 {
-        color: lawngreen;
-    }
-    
-    #s2 {
-        color: lawngreen;
-    }
-    
-    #s3 {
-        color: lawngreen;
+        background-color: rgba(0, 120, 201, 0.5);
+        font-size: 20pt;
+        font-family:Impact, Haettenschweiler;
     }
     
     #spisok {
-        margin: 15px;
-        width: 50%;
+        width: 100%;
         height: auto;
         color: lawngreen;
-        margin-left: auto;
-        margin-right: auto;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgba(0, 120, 201, 0.5);
+        list-style-type: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    ol a {
-        color: lawngreen;
+
+    #c{
+        width: 50%;
     }
     
     #form {
-        margin: 15px;
-        margin-left: auto;
-        margin-right: auto;
         height: auto;
-        width: 50%;
-        order: 0;
-    }
-    
-    input {
-        background-color: #F3CDF6;
-    }
-    
-    textarea {
-        background-color: #F3CDF6;
-    }
-    
-    select {
-        background-color: #F3CDF6;
+        width: 100%;
+        background-color: rgba(0, 120, 201, 0.5);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
     #table {
-        order: 0;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+        width: 100%;
         color: #F3CDF6;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    
-    .ch{
-        background-color: #387BCC;
-    }
-    
-    .nch{
-        background-color: lawngreen;
-        color: #387BCC;
-    }
-    
-    .ground {
-        width:100%; 
-        background-color:#387BCC; 
-        padding: 10px; 
-        height:50px;
-        line-height: 260%;
-        color: #F3CDF6
-    }
-  }
+}
+

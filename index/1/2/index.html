@@ -10,163 +10,174 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body id="H" class="column">
-      <header id="hat" class="container-fluid">
-        <img id="logo" src="s.png" alt="Картинка">
-        <div id="d">Хороший сайт</div>
-      </header>
-      <nav id="menu" class="navbar navbar-default mt-4">
-        <div class="container">
-          <div class="col-md-12 col-lg-4">
-          <a id="s1" href="#menu" title="menu">Mеню</a> 
-          </div> 
-          <div class="col-md-12 col-lg-4">
-          <a id="s2" href="#form" title="form">К форме</a>
-          </div>
-          <div class="col-md-12 col-lg-4">
-          <a id="s3" href="#End" title="end">В конец</a>
-          </div>
+    <body id="H">
+    <div class="d-flex flex-column">
+      <header id="hat">
+        <div class="d-flex flex-row justify-content-between justify-content-lg-center">
+          <img id="logo" src="s.png" alt="Картинка">
+          <div id="d">Хороший сайт</div>
         </div>
-      </nav>
-        <ol id="spisok" class="col-md-12 col-lg-12 mt-4">
-            <li><a href="http://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com</a></li>
-            <li><a href="https://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
-            <li><a href="ftp://ftp.olex.no/pub/AEC-6860.pdf"> Ссылка на файл на сервере FTP без авторизации</a></li>
-            <li><a href="ftp://user:password@ftp.olex.no/pub/AEC-6860.pdf"> Ссылку на файл на сервере FTP с авторизациуй</a></li>
-            <li><a href="https://kubsu.ru/ru/university#main-content" target="_blank">Cсылкa на фрагмент страницы некоторого сайта</a></li>
-            <li><a href="#End">Ссылка на конец сайта</a></li>
-            <li><a href="http://example.com?a&b" target="_blank">Ссылка с двумя параметрами в URL</a></li>
-            <li>
-              <ul>
-                <li><a href="#End">Ссылка на конец сайта</a></li>
-                <li><a href="#form" title="form">К форме</a></li>
-              </ul>
-            </li>
-            <li><a>Ссылка без href</a></li>
-            <li><a href="">Ссылка с пустым href</a></li>
-            <li><a href="https://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
-            <!--noindex-->
-            <li><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками </a></li>
-            <!--noindex-->
-            <li><p>На <a href="http://youtube.com/"> youtube</a> существует множество хороших видеороликов.</p></li>
-            <li><a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA" target="_blank"><img src="image.jpg" alt="Цветок"></a></li>
-            <li>
-              <img src="котик.jpg" alt="Котик" usemap="#ca">
-              <map name="ca">
-                <area shape="poly" coords="187,45,293,45,471,45,471,200,471,357,343,357,172,357,161,203" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%82%D1%91%D0%BD%D0%BE%D0%BA" target="_blank" alt="Котик">
-              </map>
-            </li>
-            <li><a href="./3.html" target="_blank"> Относительная ссылка на страницу в текущем каталоге</a></li>
-            <li><a href="./about/4.html" target="_blank">Относительная ссылка на страницу в каталоге about</a></li>
-            <li><a href="../2.html">Oтносительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
-            <li><a href="../../1.html">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
-            <li><a href="index.shtml" target="_blank">Сокращенная ссылка на главную</a></li>
-            <li><a href="./about/4.html" target="_blank">Сокращенная ссылка на внутреннюю</a></li>
-        </ol>
-
-        <table id="table" class="col-md-12 col-lg-12 mt-4">
-          <tr class="ch">
-            <th>Колонка 1</th>
-            <th>Колонка 2</th>
-            <th>Колонка 3</th>
-          </tr>
-          <tr class="nch">
-            <td colspan="3">Объединённая ячейка</td>
-          </tr>
-          <tr class="ch">
-            <td>ячейка 21</td>
-            <td>ячейка 22</td>
-            <td>ячейка 23</td>
-          </tr>
-          <tr class="nch">
-            <td>ячейка 31</td>
-            <td>ячейка 32</td>
-            <td>ячейка 33</td>
-          </tr>
-          <tr class="ch">
-            <td>ячейка 41</td>
-            <td>ячейка 42</td>
-            <td>ячейка 43</td>
-          </tr>
-          <tr class="nch">
-            <td>ячейка 51</td>
-            <td>ячейка 52</td>
-            <td>ячейка 53</td>
-          </tr>
-        </table>
-
-        <form action="/"
-        method="POST" id="form" class="col-md-12 col-lg-12 mt-4">
+      </header>
+      <div class="d-flex flex-column align-items-stretch align-items-lg-center">
+        <nav id="menu" class="mt-4 d-flex flex-column align-items-stretch align-items-lg-center">
+          <div class="row container-fluid">
+            <div class="col-md-12 col-lg-4">
+            <a id="s1" href="#menu" title="menu">Mеню</a> 
+            </div> 
+            <div class="col-md-12 col-lg-4">
+            <a id="s2" href="#form" title="form">К форме</a>
+            </div>
+            <div class="col-md-12 col-lg-4">
+            <a id="s3" href="#End" title="end">В конец</a>
+            </div>
+          </div>
+        </nav>
+        <div class="mt-4">
+          <ol id="spisok">
+              <li><a href="http://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com</a></li>
+              <li><a href="https://example.com/" target="_blank">Aбсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a></li>
+              <li><a href="ftp://ftp.olex.no/pub/AEC-6860.pdf"> Ссылка на файл на сервере FTP без авторизации</a></li>
+              <li><a href="ftp://user:password@ftp.olex.no/pub/AEC-6860.pdf"> Ссылку на файл на сервере FTP с авторизациуй</a></li>
+              <li><a href="https://kubsu.ru/ru/university#main-content" target="_blank">Cсылкa на фрагмент страницы некоторого сайта</a></li>
+              <li><a href="#End">Ссылка на конец сайта</a></li>
+              <li><a href="http://example.com?a&b" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+              <li>
+                <ul>
+                  <li><a href="#End">Ссылка на конец сайта</a></li>
+                  <li><a href="#form" title="form">К форме</a></li>
+                </ul>
+              </li>
+              <li><a>Ссылка без href</a></li>
+              <li><a href="">Ссылка с пустым href</a></li>
+              <li><a href="https://example.com/" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a></li>
+              <!--noindex-->
+              <li><a href="http://example.com/">Ссылка, запрещенная для индексации поисковиками </a></li>
+              <!--noindex-->
+              <li><p>На <a href="http://youtube.com/"> youtube</a> существует множество хороших видеороликов.</p></li>
+              <li><a href="https://ru.wikipedia.org/wiki/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA" target="_blank"><img src="image.jpg" alt="Цветок"></a></li>
+              <li>
+                <img src="котик.jpg" alt="Котик" usemap="#ca">
+                <map name="ca">
+                  <area shape="poly" coords="187,45,293,45,471,45,471,200,471,357,343,357,172,357,161,203" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%82%D1%91%D0%BD%D0%BE%D0%BA" target="_blank" alt="Котик">
+                </map>
+              </li>
+              <li><a href="./3.html" target="_blank"> Относительная ссылка на страницу в текущем каталоге</a></li>
+              <li><a href="./about/4.html" target="_blank">Относительная ссылка на страницу в каталоге about</a></li>
+              <li><a href="../2.html">Oтносительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+              <li><a href="../../1.html">Относительная ссылка на страницу в каталоге двумя уровнями выше текущего</a></li>
+              <li><a href="index.shtml" target="_blank">Сокращенная ссылка на главную</a></li>
+              <li><a href="./about/4.html" target="_blank">Сокращенная ссылка на внутреннюю</a></li>
+          </ol>
+        </div>
   
-        <label>
-          Имя:<br />
-          <input name="field-name-1"
-            placeholder="Имя" />
-        </label><br />
-  
-        <label>
-          email:<br />
-          <input name="field-email"
-            type="email"
-            placeholder="Введите вашу почту" />
-        </label><br />
-  
-        <label>
-          Дата рождения:<br />
-          <input name="field-date"
-            value="2022-09-09"
-            type="date" />
-        </label><br />
-  
-        Пол:<br />
-        <label><input type="radio"
-          name="radio-group-1" value="Значение1" />
-          М</label>
-        <label><input type="radio"
-          name="radio-group-1" value="Значение2" />
-          Ж</label><br />
-
-        Количество конечностей:<br />
-        <label><input type="radio"
-          name="radio-group-2" value="Значение1" />
-          1</label>
-        <label><input type="radio"
-          name="radio-group-2" value="Значение2" />
-          2</label>
-        <label><input type="radio"
-          name="radio-group-2" value="Значение3" />
-          3</label>
-        <label><input type="radio"
-          name="radio-group-2" value="Значение4" />
-          4</label><br />
-
-        <label>
-          Сверхспособности:
-          <br />
-          <select name="field-name-4[]"
-            multiple="multiple">
-            <option value="Значение1">Бессмертие</option>
-            <option value="Значение2">Прохождение сквозь стены</option>
-            <option value="Значение3">Левитация</option>
-          </select>
-        </label><br />
-
-        <label>
-          Биография:<br />
-          <textarea name="field-name-2"></textarea>
-        </label><br />
-  
-        <br />
-        <label><input type="checkbox"
-          name="check-1" />С контрактом ознакомлен(а)</label><br />
-          
-          
-        <input type="submit" value="Отправить" />
-      </form><br />
-
+        <div class="d-flex flex-column-reverse flex-lg-column">
+          <div class="mt-4">
+            <table id="table">
+              <tr class="ch">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+              </tr>
+              <tr class="nch">
+                <td colspan="3">Объединённая ячейка</td>
+              </tr>
+              <tr class="ch">
+                <td>ячейка 21</td>
+                <td>ячейка 22</td>
+                <td>ячейка 23</td>
+              </tr>
+              <tr class="nch">
+                <td>ячейка 31</td>
+                <td>ячейка 32</td>
+                <td>ячейка 33</td>
+              </tr>
+              <tr class="ch">
+                <td>ячейка 41</td>
+                <td>ячейка 42</td>
+                <td>ячейка 43</td>
+              </tr>
+              <tr class="nch">
+                <td>ячейка 51</td>
+                <td>ячейка 52</td>
+                <td>ячейка 53</td>
+              </tr>
+            </table>
+          </div>
+    
+          <div class="mt-4">
+            <form action="/"
+            method="POST" id="form">
+      
+            <label>
+              Имя:<br />
+              <input name="field-name-1"
+                placeholder="Имя" required="required" />
+            </label><br />
+      
+            <label>
+              email:<br />
+              <input name="field-email"
+                type="email"
+                placeholder="Введите вашу почту" required="required" />
+            </label><br />
+      
+            <label>
+              Дата рождения:<br />
+              <input name="field-date"
+                value="2022-09-09"
+                type="date"  required="required"/>
+            </label><br />
+      
+            Пол:<br />
+            <label><input type="radio"
+              name="radio-group-1" value="Значение1" required="required"/>
+              М</label>
+            <label><input type="radio"
+              name="radio-group-1" value="Значение2" />
+              Ж</label><br />
+    
+            Количество конечностей:<br />
+            <label><input type="radio"
+              name="radio-group-2" value="Значение1" required="required" />
+              1</label>
+            <label><input type="radio"
+              name="radio-group-2" value="Значение2" />
+              2</label>
+            <label><input type="radio"
+              name="radio-group-2" value="Значение3" />
+              3</label>
+            <label><input type="radio"
+              name="radio-group-2" value="Значение4" />
+              4</label><br />
+    
+            <label>
+              Сверхспособности:
+              <br />
+              <select name="field-name-4[]"
+                multiple="multiple" required="required">
+                <option value="Значение1">Бессмертие</option>
+                <option value="Значение2">Прохождение сквозь стены</option>
+                <option value="Значение3">Левитация</option>
+              </select>
+            </label><br />
+    
+            <label>
+              Биография:<br />
+              <textarea name="field-name-2" required="required"></textarea>
+            </label><br />
+      
+            <br />
+            <label><input type="checkbox"
+              name="check-1" required="required"/>С контрактом ознакомлен(а)</label><br />
+              
+              
+            <input type="submit" value="Отправить" />
+          </form><br />
+        </div>
+        </div>
+      </div>
       <footer id="End" class="ground mt-4">(c) Игорь Гайворонский 2022</footer>
-    </body>
+    </div>
+  </body>
 </html>
