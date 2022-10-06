@@ -13,6 +13,10 @@
     margin: 0;
 }
 
+img {
+    width: 50%;
+}
+
 #logo {
     float:left;
     margin:10px;
@@ -29,7 +33,6 @@
 #menu {
     text-align: center;
     height: auto;
-    width: 100%;
     font-weight: 960px;
     line-height: 260%;
     background-color: rgba(0, 120, 201, 0.5);
@@ -50,7 +53,6 @@
 }
 
 #spisok {
-    width: auto;
     height: auto;
     color: lawngreen;
     background-color: rgba(0, 120, 201, 0.5);
@@ -65,7 +67,6 @@ ol a {
 
 #form {
     height: auto;
-    width: 100%;
     background-color: rgba(0, 120, 201, 0.5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -84,7 +85,6 @@ select {
 
 #table {
     text-align: center;
-    width: 100%;
     color: #F3CDF6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -107,44 +107,3 @@ select {
     color: #F3CDF6;
     order: 1;
 }
-
-@media screen and (min-width: 800px) {
-    #menu {
-        text-align: center;
-        height: auto;
-        width: 60%;
-        font-weight: 960px;
-        line-height: 260%;
-        background-color: rgba(0, 120, 201, 0.5);
-        font-size: 20pt;
-        font-family:Impact, Haettenschweiler;
-    }
-    
-    #spisok {
-        width: 100%;
-        height: auto;
-        color: lawngreen;
-        background-color: rgba(0, 120, 201, 0.5);
-        list-style-type: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    #c{
-        width: 50%;
-    }
-    
-    #form {
-        height: auto;
-        width: 100%;
-        background-color: rgba(0, 120, 201, 0.5);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    #table {
-        text-align: center;
-        width: 100%;
-        color: #F3CDF6;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-}
-
